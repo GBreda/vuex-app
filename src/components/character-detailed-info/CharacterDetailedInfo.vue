@@ -2,8 +2,8 @@
     <div class="card">
         <span>Detailed info: </span>
         <a-card>
-            <p><strong>Specie: </strong></p>
-            <p><strong>Location: </strong></p>
+            <p><strong>ID: </strong>{{ info.id }}</p>
+            <p><strong>Specie: </strong>{{ info.species }}</p>
         </a-card>
     </div>
 </template>
